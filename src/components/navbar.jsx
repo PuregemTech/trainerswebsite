@@ -12,7 +12,11 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav__container">
-        <Link to="/" className="logo" onClick={() => setIsNavShowing (false)}>
+        <Link
+          to="/trainerswebsite"
+          className="logo"
+          onClick={() => setIsNavShowing (false)}
+        >
           <img src={Logo} alt="Nav logo" />
         </Link>
         <ul
